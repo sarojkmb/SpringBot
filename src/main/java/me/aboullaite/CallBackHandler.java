@@ -89,7 +89,7 @@ public class CallBackHandler {
         try {
             return ResponseEntity.ok(this.receiveClient.verifyWebhook(mode, verifyToken, challenge));
         } catch (MessengerVerificationException e) {
-            logger.warn("Webhook verification failed: {}", e.getMessage());
+            logger.warn("Webhook verification failed : {}", e.getMessage());
             return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
         }
     }
