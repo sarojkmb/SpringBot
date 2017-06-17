@@ -1,7 +1,7 @@
 messenger4j:
-  appSecret: 863b0bcd457d150a071019b388aac9fc
-  verifyToken : verifyabrolly
-  pageAccessToken: EAAWIMNmdOe0BAJB9RhvxFnFtoZBWLYnTvXezVtENduZCdoUAJ06zt6ExxdU7aG2f62LhaLX5HgrCcgn2y7LyO14i9NpEjT6a007bdOhSt27zoOhtVTJhqEUDMNHTC3SbrnfStHaNs5904vqatND63JMCg5x1DwS3ijPRR8NgZDZD
+  appSecret: 
+  verifyToken : 
+  pageAccessToken: 
 
 logging:
   level:
